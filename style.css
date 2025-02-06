@@ -1,0 +1,47 @@
+ *,
+ *::before,
+ *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+ }
+  .card{
+    padding: 20px;
+    background: green;
+    border-radius: 10px;
+    text-align: center;
+    width:500px ;
+    box-shadow: 0px 4px 8px black;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h2,h3{
+    margin: 10px 0;
+  }
+  p{
+    font-size: 15px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+  }
+  .social-links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color:blueviolet ;
+  }
+  .social-links a:hover{
+    text-decoration: underline;
+  }
